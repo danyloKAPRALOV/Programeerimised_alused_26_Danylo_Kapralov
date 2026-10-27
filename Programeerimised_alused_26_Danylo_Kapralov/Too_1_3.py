@@ -26,11 +26,11 @@ print(f"Täna on {tana4}")
 # Arvuta mitu päeva on jäänud kuu lõpuni,
 # aasta lõpuni.
 # Arvuta oma vanus aastates, kuudes ja päevades.
-print("Täna on"; tana.day)
-print("Päev, kuu number on" tana.month)
-print("ja aasta on" tana.year)
+print("Täna on", tana.day)
+print("Päev, kuu number on", tana.month)
+print("ja aasta on", tana.year)
 
-kuulõpuni=monthrange(tana.year, tana.month)(1)- tana.day
+kuulõpuni=monthrange(tana.year, tana.month)[1]- tana.day
 #oktoobris on 31 päeva, 31-24=4 päeva jäänud
 print("Kuu lõpuni on jäänud", kuulõpuni, "päeva.")
 aastalõpuni=(date(tana.year, 12, 31)) - tana) - tana).days
@@ -55,7 +55,7 @@ print("3 + 8 / 4 - 2 * 4=", (3+8) / 4 - 2 * 4)
 #Ülesanne3
 # Ruudu sees asub ring. Ringi raadius on R.
 # Leia ja väljasta ekraanile ruudu pindala, ruudu ümbermõõt, ringi pindala, ringi ümbermõõt.
-R
+
 try:
     R=float(input("Sisesta ringi raadius:"))
     print("Ruudu pindala:", R**2)
@@ -67,3 +67,34 @@ except :
     .
 #Ülesanne4
 # Koosta programm, mis arvutab välja Maa ümbermõõdu ekvaatori kohal 2-eurostes müntides ehk teisisõnu: kui palju 2-euroseid münte tuleb panna üksteise kõrvale, et rida ulatuks ümber Maa. Kasuta teadmist, et Maa raadius ekvaatori kohal on 6378 km.
+import math
+
+maa_raadius_km = 6378
+mundi_labimoot_mm = 25.75
+pi = 3.14159
+maa_raadius_mm = maa_raadius_km * 1000000
+maa_umbermoot_mm = 2 * pi * maa_raadius_mm
+print("Maa ümbermõõt:", maa_umbermoot_mm / 1000000, "km")
+print("Vajalike 2-euroste müntide arv:", muntide_arv)
+
+#Ülesanne5
+# Eelnevaid teadmisi kasutades kirjuta programm, mis väljastaks:
+a="Kill-koll"
+b="Killadi-koll
+print(a.upper() * 3 + b.upper() + a.upper() * 3 + b.upper() + a.upper() * 3)"
+
+#Ülesanne6
+# Koosta programm, mis väljastaks järgmised laulusõnad suurte tähtedega:
+print("Rong see sõitis tsuhh tsuhh tsuhh,".upper())
+print("piilupart oli rongijuht.".upper())
+print("Rattad tegid rat tat taa,".upper())
+print("rat tat taa ja tat tat taa.".upper())
+print("Aga seal rongi peal,".upper())
+print("kas sa tead, kes olid seal?".upper())
+print("Rong see sõitis tuut tuut tuut,".upper())
+print("piilupart oli rongijuht.".upper())
+print("Rattad tegid kill koll koll,".upper())
+print("kill koll koll ja kill koll kill..".upper())
+
+#Ülesanne7
+# Koosta programm, mis küsib kasutajalt ristküliku lähiskülgede pikkused ning väljastab ekraanile ristküliku ümbermõõdu ja pindala.
