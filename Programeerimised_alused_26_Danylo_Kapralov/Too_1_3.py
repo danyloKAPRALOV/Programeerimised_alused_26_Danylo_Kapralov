@@ -64,6 +64,6 @@ try:
     print("Ruudu ümbermõõt:", 2*3.14*R)
 except :
     print("Valed andmed")
-
+    .
 #Ülesanne4
 # Koosta programm, mis arvutab välja Maa ümbermõõdu ekvaatori kohal 2-eurostes müntides ehk teisisõnu: kui palju 2-euroseid münte tuleb panna üksteise kõrvale, et rida ulatuks ümber Maa. Kasuta teadmist, et Maa raadius ekvaatori kohal on 6378 km.
