@@ -60,6 +60,6 @@ print("Ainult tähed:", nimi.isalpha())
 print("Suurtähtedega:", nimi.isupper())
 print("Algab suurtähega:", nimi.istitle())
 if nimi.isalpha():
-    print("Nimi sobib.")
+    print("Nimi sobib.")h
 else:
     print("Nimes tohib olla ainult tähti!")
