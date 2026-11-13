@@ -1,65 +1,66 @@
-#Lihtne If lause
-try:
-    x= int(input("Sisesta arv: "))
-    if x > 0:
-        print("Positiivne arv")
-        print("See rida on ka if-i sees")
-    print("See rida t√§idetakse alati")
-except ValueError:
-    print("Valed andmed")
+# try:
+# x = int(input("Siseste arv: "))
+# if x > 0:
+# print("Positiivne arv")
+# print("See rida on ka if-i sees")
+# print("See rida t‰idetakse alati")
+# except ValueError:
+# print("Valed andmed")
 
-#if‚Ä¶else lause
-# if tingimus
-#   tegevus_True
-#else:
-#   tegevus_False
-x = int(input("Sisesta arv: "))
-if x == 1:
-    print("√ïige")
-else:
-    print("Vale")
-except ValueError
-    print("Valed andmed")
-
-vastus = input("Kas soovid j√§tkata? (jah/ei) ")
-if vastus.lower() == "jah":
-    print("J√§tkame!")
-else:
-    print("Head aega!")
-
-#2.4if‚Ä¶elif‚Ä¶else
-# #if tingimus_1:
-#     tegevus_1
-# elif tingimus_2:
-#     tegevus_2
+# if tingimus:
+# tegevus_True
 # else:
-#     tegevus_3
-x = int(input("Sisesta arv -5 kuni 5: "))
-if x < -5:
-    print("V√§he")
-elif -5 <= x <= 5:
-    print("OK")
-else:
-    print("Palju")
+# tegevus_False
+# try:
+# x = int(input("Sisesta arv: "))
+# if x == 1:
+# print("’ige")
+# else:
+# print("Vale")
+# except ValueError:
+# print("Valed amdmed")
 
-#2.5Pesastatud tingimused
-vanus = int(input("Vanus: "))
-if vanus >= 18:
-    juhiluba = input("Kas sul on juhiluba? (jah/ei) ")
-    if juhiluba.lower() == "jah":
-        print("V√µid autot juhtida.")
-    else:
-        print("K√µigepealt tee juhiload.")
-else:
-    print("Oled autojuhtimiseks liiga noor.")
-except ValueError:
-    print("Valed andmed. Sisesta t√§isarv.")
+# vastus = input("Kas soovid j‰tkata? (jah/ei) ")
+# if vastus.lower() == "jah":
+# print("J‰tkame!")
+# else:
+# print("Head aega!")
 
-nimi = input("Sisesta nimi: ")
-print("Ainult t√§hed:", nimi.isalpha())
-print("Suurt√§htedega:", nimi.isupper())
-print("Algab suurt√§hega:", nimi.istitle())
-if nimi.isalpha():
-    print("Nimi sobib.")h
-else:
-    print("Nimes tohib olla ainult t√§hti!")
+# 2.4ifÖelifÖelse
+# if tingimus_1:
+# tegevus_1
+# elif tingimus_2:
+# tegevus_2
+# else:
+# tegevus_3
+
+# x = int(input("Sisesta arv -5 kuni 5: "))
+# if x < -5:
+# print("V‰he")
+# elif -5 <= x <= 5:
+# print("OK")
+# else:
+# print("Palju")
+
+# 2.5Pesastatud tingimused
+# try:
+# nimi = input("Sisesta nimi: ")
+# if nimi.isalpha():
+# print("Nimi sobib.")
+# vanus = int(input("Vanus: "))
+# if vanus >= 18:
+# juhiluba = input("Kas sul on juhiluba? (jah/ei) ")
+# if juhiluba.lower() == "jah":
+# print("Vıid autot juhtida.")
+# else:
+# print("Kıigepealt tee juhiload.")
+# else:
+# print("Oled autojuhtimiseks liiga noor.")
+# except ValueError:
+# print("Valed andmed. Sisesta t‰isarv")
+
+
+
+# print("Ainult t‰hed:", nimi.isalpha())
+# print("Suurt‰htedega:", nimi.isupper())
+# print("Algab suurt‰hega:", nimi.istitle())
