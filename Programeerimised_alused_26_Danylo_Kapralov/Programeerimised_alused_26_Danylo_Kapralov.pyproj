@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6bb2dc20-c875-4241-ac5f-3c9f4a298360</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Töö 2.1.py</StartupFile>
+    <StartupFile>Hindeline_töö.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Hindeline_töö.py" />
     <Compile Include="Programeerimised_alused_26_Danylo_Kapralov.py" />
     <Compile Include="Teema 2_Valikud.py" />
     <Compile Include="Too_1_3.py" />
