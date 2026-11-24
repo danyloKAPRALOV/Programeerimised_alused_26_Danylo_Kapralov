@@ -69,7 +69,7 @@ for i in range(10,21):
     #while
     i = 10 
     while i <= 20:
-        print(f"{i}^2 = {i**2}")
+        print(f"{i}^2 = {i**2}"),
         i += 1 
 #5️
 # Koosta programm, mis arvutab ainult negatiivsete arvude summa N sisestatud arvu seast.
