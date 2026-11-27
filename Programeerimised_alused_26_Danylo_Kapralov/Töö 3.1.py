@@ -131,7 +131,7 @@ except ValueError:
 a = int(input("Sisesta vahemiku algus (A): "))
 b = int(input("Sisesta vahemiku lõpp (B): "))
 k = int(input("Sisesta jagaja (K): "))
-
+,
 print(f"Arvud vahemikus [{a}, {b}], mis jaguvad arvuga {k}:")
 for arv in range(a, b + 1):
     if arv % k == 0:
